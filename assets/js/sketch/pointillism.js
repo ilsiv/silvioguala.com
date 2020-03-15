@@ -13,7 +13,7 @@ var angle = 0;
 var alph = 10;
 
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight+300);
   canvas.id('sketch-container');
   colors.push(color(255, 200, 0, 6));
   colors.push(color(237, 70, 47, 1));
