@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
   fill(255, 255, 255, 5);
-  rect(0, 0, windowWidth, windowHeight);
+  rect(0, 0, windowWidth, windowHeight+300);
   for (var i = 0; i < 15; i++) {
     var v = p5.Vector.random2D();
 
