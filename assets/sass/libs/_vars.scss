@@ -1,0 +1,67 @@
+// Misc.
+	$misc: (
+		z-index-base:				10000,
+		gallery-lightbox-opacity:	0.875
+	);
+
+// Duration.
+	$duration: (
+		transition:					0.25s,
+		gallery-lightbox-fadein:	0.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:			0.325rem,
+		element-height:			3rem,
+		element-margin:			2rem,
+		header-width:			25rem,
+		subheader-width:		22rem,
+		content-width:			60rem,
+		line-width:				2px,
+		form-gutter:			2rem,
+		gallery-gutter:			1.25rem,
+	);
+
+// Font.
+	$font: (
+		family:					('Ubuntu', Helvetica, sans-serif),
+		family-fixed:			('Courier New', monospace),
+		family-heading:			('Raleway', Helvetica, sans-serif),
+		weight:					300,
+		weight-bold:			600,
+		weight-extrabold:		700,
+		weight-heading:			800,
+		weight-heading-light:	600,
+		kerning:				0.0375em,
+		kerning-heading:		0.175em,
+		kerning-heading-alt:	-0.05em
+	);
+
+// Palette.
+	$palette: (
+		bg:						transparentize(#999900, 0.8),
+		fg:						#00415B,
+		fg-bold:				#00415B,
+		fg-light:				rgba(0,0,0,0.25),
+		border:					rgba(144,144,144,0.25),
+		border-bg:				rgba(144,144,144,0.1),
+		//accent:					#49fcd4,
+    accent:           transparentize(#00A4A1, 0.6),
+		accent-border:			desaturate(darken(#00A4A1, 8), 30),
+		accent-alt:				desaturate(darken(#00A4A1, 10), 20),
+		accent-bg:				transparentize(#00A4A1, 0.75)
+	);
+  // $palette: (
+	// 	bg:						transparentize(#DDDDDD, 0.8),
+	// 	fg:						#222222,
+	// 	fg-bold:				#222222,
+	// 	fg-light:				#222222,
+	// 	border:					rgba(144,144,144,0.25),
+	// 	border-bg:				rgba(144,144,144,0.1),
+	// 	// accent:					#49fcd4,
+  //   accent:           transparentize(#00A4A1, 0.6),
+	// 	accent-border:			desaturate(darken(#00A4A1, 8), 30),
+	// 	accent-alt:				desaturate(darken(#00A4A1, 10), 20),
+	// 	accent-bg:				transparentize(#00A4A1, 0.75)
+	// );
