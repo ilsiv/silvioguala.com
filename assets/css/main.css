@@ -79,7 +79,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  background: rgba(153, 153, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   overflow-x: hidden; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
@@ -108,7 +108,7 @@ html {
       font-size: 11pt; } }
 
 body {
-  background-color: rgba(153, 153, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #00415B; }
 
 body, input, select, textarea {
@@ -1283,7 +1283,7 @@ select {
   padding-right: 3rem;
   text-overflow: ellipsis; }
   select option {
-    background-color: rgba(153, 153, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     color: #00415B; }
   select:focus::-ms-value {
     background-color: transparent; }
@@ -1350,7 +1350,7 @@ input[type="radio"] {
     content: '\f00c';
     background-color: rgba(0, 164, 161, 0.4);
     border-color: rgba(0, 164, 161, 0.4);
-    color: rgba(153, 153, 0, 0.2); }
+    color: rgba(255, 255, 255, 0.2); }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
     border-color: rgba(0, 164, 161, 0.4);
@@ -1851,7 +1851,7 @@ a.arrow {
     -ms-transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
     transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
     -webkit-tap-highlight-color: transparent;
-    background-color: rgba(153, 153, 0, 0.075);
+    background-color: rgba(255, 255, 255, 0.075);
     height: 100%;
     left: 0;
     opacity: 0;

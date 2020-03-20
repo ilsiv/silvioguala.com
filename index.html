@@ -4,6 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
 
 <head>
@@ -15,7 +16,7 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 
   <style>
-    canvas {
+    /* canvas {
       width: 50vw;
       height: 100%;
       position: fixed;
@@ -25,13 +26,22 @@
       right: 0;
     }
 
-    canvas#sketch-container {
+    #sketch-container {
       position: fixed;
       width: 50vw;
       height: 100%;
       top: 0;
       left: 0;
       z-index: -99;
+    } */
+
+     canvas#sketch-image {
+      /*position: absolute;
+      width: 50vw;
+      height: 100%;
+      top: 0;
+      left: 50vw;*/
+      z-index: -1;
     }
   </style>
 </head>
@@ -50,9 +60,10 @@
           <li><a href="#work" class="arrow scrolly"><span class="label">Next</span></a></li>
         </ul>
       </header>
-      <!-- <div class="content">
-        <span class="image fill" data-position="center"><img src="images/canvas_00413_.jpg" alt="" /></span>
-      </div> -->
+      <div class="content" >
+        <span id="sketch-image" class="image fill" data-position="center"></span>
+        <!-- <span id="sketch-image" class="image fill" data-position="center"><img  src="images/canvas_00413_.jpg" alt="" /></span> -->
+      </div>
     </section>
 
     <!-- Section -->
@@ -63,15 +74,15 @@
           <li><a href="#work" class="arrow scrolly"><span class="label">Next</span></a></li>
         </ul>
       </header>
-      <div class="content" align="justify">
+      <div class="content" align="justify" >
         <p><strong>silvio <i>"il SiV"</i> guala</strong></p>
-        <p >Sono nato nel 1971. Solo pochi anni fa ho iniziato ad interessarmi alla fotografia e,
+        <p>Sono nato nel 1971. Solo pochi anni fa ho iniziato ad interessarmi alla fotografia e,
           in particolare, alla fotografia di cibo merito di una moglie cuoca per passione.
           <p>Attualmente ho intrapreso un percorso che mi sta portando sempre più verso la fotografia
             concettuale in cui progettualità e precisione sono componenti indispensabili per la
             buona realizzazione dell'idea.</p>
           <p>Il mio motto da sempre: <strong>"Meglio <i>tardi</i> che male accompagnati!"</strong></p>
-          <span class="image main"><img src="images/ciliegie_2.jpg" alt="" /></span>
+          <span class="image main" ><img src="images/ciliegie_2.jpg" alt="" /></span>
       </div>
     </section>
 
@@ -156,7 +167,8 @@
             <blockquote>
               <strong>Pubblicazioni</strong>
               <ul class="alt">
-                <li>pubblicato su <a href="https://www.clic-he.it/food-scatti-di-cronaca/" target="_blank">Clic.hé - Webmagazine di fotografia e realtà visuale</a> (<a href="https://issuu.com/clic.he/docs/clic.h___28_food" target="_blank">pdf</a>)</li>
+                <li>pubblicato su <a href="https://www.clic-he.it/food-scatti-di-cronaca/" target="_blank">Clic.hé - Webmagazine di fotografia e realtà visuale</a> (<a href="https://issuu.com/clic.he/docs/clic.h___28_food" target="_blank">pdf</a>)
+                </li>
               </ul>
             </blockquote>
 
@@ -182,7 +194,7 @@
             <blockquote>
               <strong>Esposizioni</strong>
               <ul class="alt">
-                <li>selezionato in <a href="https://www.comune.vercelli.it/evento/letterature-urbane-50"target="_blank"> Letterature Urbane 5.0 </a> - Vercelli</li>
+                <li>selezionato in <a href="https://www.comune.vercelli.it/evento/letterature-urbane-50" target="_blank"> Letterature Urbane 5.0 </a> - Vercelli</li>
               </ul>
             </blockquote>
           </div>
@@ -197,8 +209,8 @@
 
           <div class="content">
             <div class="gallery">
-              <a href="images/gallery/fulls/50_Cavour_FULL.jpg" ><img src="images/gallery/thumbs/50_Cavour_THUMB.jpg" alt="" /></a>
-              <a href="images/gallery/fulls/50_cavour_2_FULL.jpg" ><img src="images/gallery/thumbs/50_cavour_2_THUMB.jpg" alt="" /></a>
+              <a href="images/gallery/fulls/50_Cavour_FULL.jpg"><img src="images/gallery/thumbs/50_Cavour_THUMB.jpg" alt="" /></a>
+              <a href="images/gallery/fulls/50_cavour_2_FULL.jpg"><img src="images/gallery/thumbs/50_cavour_2_THUMB.jpg" alt="" /></a>
             </div>
             <blockquote>
               <strong>Esposizioni</strong>
@@ -538,7 +550,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
       </header>
       <div class="content">
         <p><strong>Sempre in cerca di nuovi <i>"progetti"</i> visuali</strong>
-           <br>Per qualsiasi <strong>strana</strong> richiesta contattatemi.</p>
+          <br>Per qualsiasi <strong>strana</strong> richiesta contattatemi.</p>
         <!-- <form>
           <div class="fields">
             <div class="field half">
@@ -602,8 +614,10 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
   <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.js"></script>
 
 
-  <script language="javascript" type="text/javascript" src="assets/js/sketch/pointillism.js"></script>
+  <!-- <script language="javascript" type="text/javascript" src="assets/js/sketch/pointillism.js"></script> -->
   <!-- <script language="javascript" type="text/javascript" src="assets/js/sketch/palettes.js"></script> -->
+
+  <script language="javascript" type="text/javascript" src="assets/js/sketch/sketch-image.js"></script>
 
 </body>
 
